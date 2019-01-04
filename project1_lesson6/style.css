@@ -1,0 +1,29 @@
+
+.svg {
+    width:300px;
+    height: 300px;
+}
+
+
+
+.rect .icon{
+    width: 200px;
+    height: 200px;
+    fill: red; 
+  }
+  
+  .rect .icon:hover{
+    fill: url(#wood);
+  }
+  
+  .icons--wood {
+    width: 200px;
+    height: 200px;
+    fill: url(#wood); 
+  }  
+  
+  .icons--wood .icon:hover {
+        fill: red; 
+        stroke: url(#wood); 
+      }
+  

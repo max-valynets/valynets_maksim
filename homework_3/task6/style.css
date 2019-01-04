@@ -1,0 +1,39 @@
+.inline_block_nav li {
+    display: inline-block;
+    background: pink;
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    padding: 1%;
+    text-align:center;
+    
+}
+
+section:first-of-type {
+    margin: 1;
+    background-color:pink;
+    text-align:center;
+}
+
+section:last-of-type {
+    
+    background-color:plum;
+    overflow: hidden;
+    
+}
+
+.floated_nav a {
+    
+    float: left;
+    border-style: solid;
+    border-color:aqua;
+    border-width: 3%;
+    padding:1% 9.5%;
+    background:pink;
+    
+}
+
+
+
+
+

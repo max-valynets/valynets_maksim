@@ -1,0 +1,17 @@
+a[href*="yandex"] { 
+    color: orange; 
+   }
+
+a[href*="ya"] { 
+    color: orange; 
+   }
+
+a[href*="google"] { 
+    color: #666 
+   }
+
+a[target="_blank"]:after {
+    content: "\21F2";
+    display:inline-block;
+    transform:rotate(-90deg);
+}
