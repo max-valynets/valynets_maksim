@@ -1,0 +1,68 @@
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.menu {
+    position: relative;
+    background-color: #4eaeee;
+}
+
+.menu, .submenu {
+    
+    padding: 0;
+}
+
+
+.menu-link_design {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.menu_item,
+.submenu_item {
+    display: inline-block;
+}
+
+
+
+.submenu-wrapper{
+    position: absolute;
+    display: none;
+    top: 100%;
+    right: 0;
+    left: 0;
+    background-color:#EBE5E5; 
+}
+
+
+
+.menu_item_link {
+    font-family: 'Economica';
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:white;
+}
+
+
+
+.submenu_item_link {
+    font-size: 13px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color:#827373;
+    font-weight: bold;
+    
+}
+
+.menu_item_link:hover {
+    background-color: #eee;
+    color: #a6a4a6;
+}
+
+.menu_item_link:hover + .submenu-wrapper {
+    display: block;
+}
+
